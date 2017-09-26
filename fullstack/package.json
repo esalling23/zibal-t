@@ -1,0 +1,44 @@
+{
+  "name": "zibal-t",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "chalk": "^2.1.0",
+    "classnames": "^2.2.5",
+    "concurrently": "^3.5.0",
+    "debug": "^2.6.9",
+    "express": "^4.15.4",
+    "google-geocoder": "^0.2.1",
+    "google-maps-react": "^1.1.0",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.12.1",
+    "pg": "^7.3.0",
+    "prop-types": "^15.6.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^0.9.5",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "sequelize": "^4.10.0",
+    "yargs": "^9.0.1"
+  },
+  "devDependencies": {
+    "chalk": "^2.1.0",
+    "gh-pages": "^1.0.0",
+    "path": "^0.12.7",
+    "react-dev-utils": "^4.0.1"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"nodemon server\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8000"
+}
